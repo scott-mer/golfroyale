@@ -1,0 +1,24 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Assets/Courses/course1.png" type="Texture" id=1]
+
+[node name="Course1Static" type="StaticBody2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+offset = Vector2( 300, 512 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PoolVector2Array( 101.727, 1023.61, 600.02, 175.211, 598.973, 1023.68 )
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="."]
+polygon = PoolVector2Array( 0.511116, 445.372, 56.5976, 0.344017, -0.346436, -0.117432 )
+
+[node name="CollisionPolygon2D3" type="CollisionPolygon2D" parent="."]
+polygon = PoolVector2Array( 60.6292, 813.852, 80.7196, 625.253, 156.086, 633.726, 135.423, 823.553 )
+
+[node name="CollisionPolygon2D4" type="CollisionPolygon2D" parent="."]
+polygon = PoolVector2Array( 40.25, 421.25, 379.5, 492.25, 407.75, 355.5, 69.25, 285.5 )
+
+[node name="CollisionPolygon2D5" type="CollisionPolygon2D" parent="."]
+polygon = PoolVector2Array( 264.485, 182.394, 423.778, 78.6051, 464.832, 142.703, 305.516, 246.53 )
